@@ -24,7 +24,7 @@ The application is designed with a user-friendly interface using **React.js**, *
 - **Frontend**: React.js, Next.js 15, Tailwind CSS, Shadcn UI
 - **Backend**: Supabase, Prisma
 - **Authentication**: Clerk
-- **Email & Scheduled Jobs**: Integromat
+- **Email & Scheduled Jobs**: Inngest
 - **AI**: Receipt scanning and financial insights generation
 - **Security**: ArcJet (Bot protection, rate limiting, API shield)
 - **Deployment**: Vercel
