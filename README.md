@@ -69,7 +69,7 @@ Built using modern technologies and deployed on **Vercel**, it offers a fast, se
 
  3.**Set up environment variables**
   Create a .env.local file in the root directory and include the following:
-    ```bash
+ ```bash
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    DATABASE_URL=your_postgres_database_url
@@ -78,7 +78,7 @@ Built using modern technologies and deployed on **Vercel**, it offers a fast, se
    NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_frontend_api
    INNGEST_API_KEY=your_inngest_key
    ARCJET_SECRET=your_arcjet_key
-    ```
+   ```
 
 
 4.**Run the development server**
