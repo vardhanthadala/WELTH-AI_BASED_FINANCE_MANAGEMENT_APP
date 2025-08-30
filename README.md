@@ -4,37 +4,48 @@
 
 ## 📌 AI Finance Management App
 
-A modern personal finance platform leveraging AI to automate expense tracking and provide intelligent financial insights. Built with cutting-edge technologies for performance, security, and user experience.
+## Overview
 
-### ✨ Key Features
+This project is a **Personal Finance Tracker** built with the latest technologies. It allows users to securely track their income, expenses, and set budget limits, while leveraging AI for receipt scanning and financial insights.
 
-- **AI-Powered Receipt Scanning**: Automatically extracts and categorizes expenses
-- **Smart Budgeting**: Set limits with email alerts when approaching thresholds
-- **Recurring Transactions**: Schedule automatic payments and income tracking
-- **Financial Insights**: AI-generated monthly summaries of spending patterns
-- **Interactive Analytics**: Visual charts for daily/monthly expense breakdowns
-- **Enterprise-Grade Security**: Bot protection, rate limiting, and API shielding
+The application is designed with a user-friendly interface using **React.js**, **Next.js**, and **Tailwind CSS**, deployed on **Vercel**. It incorporates AI for automatic expense categorization through receipt scanning and provides insightful financial summaries.
 
-### 🛠️ Tech Stack
+## Key Features
 
-**Frontend**
+- **AI-powered receipt scanning**: Automatically categorizes expenses and tracks spending.
+- **Real-time database**: Uses **Supabase** for storing user data and **Prisma** as the ORM.
+- **Expense tracking**: Track income and expenses, set budget limits, and receive email alerts when nearing the budget limit.
+- **Financial insights**: Monthly insights and detailed reports via email, showing trends and patterns in spending.
+- **Scheduled transactions**: Schedule recurring expenses and automatically add them when due.
+- **API Security**: Integrated **ArcJet** for API security, implementing rate limiting and bot protection to ensure the application is secure against common threats.
 
-- React 19 · Next.js 15 · Tailwind CSS · shadcn/ui
+## Tech Stack
 
-**Backend**
+- **Frontend**: React.js, Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend**: Supabase, Prisma
+- **Authentication**: Clerk
+- **Email & Scheduled Jobs**: Integromat
+- **AI**: Receipt scanning and financial insights generation
+- **Security**: ArcJet (Bot protection, rate limiting, API shield)
+- **Deployment**: Vercel
 
-- Supabase (Realtime DB) · Prisma (ORM)
+## Security Highlights
 
-**Services**
+- **Bot Protection**: Using **ArcJet Shield** to prevent bots from accessing the API.
+- **Rate Limiting**: To safeguard the app from abuse and ensure a smooth user experience.
+- **Authentication**: Managed through **Clerk** to handle secure user login and session management.
 
-- Clerk (Auth) · Inngest (Scheduled Jobs) · Arcjet (Security)
+## Features in Detail
 
-**Deployment**
+- **Receipt Scanning**: Users can upload receipts, and the AI will automatically extract and categorize expenses.
+- **Expense Tracking**: Provides a detailed breakdown of daily and monthly expenses.
+- **Scheduled Transactions**: Schedule recurring expenses and track them seamlessly.
+- **Financial Summaries**: Periodically email users with financial insights, including spending patterns and trends.
 
-- Vercel (Serverless Hosting)
+## How to Use
 
-> "Empowering users with AI-driven financial clarity and control."
+1. Clone this repository.
+2. Install dependencies:
+   ```bash
+   npm install
 
-## Credits
-
-- Some code adapted from [Piyush's Repo](https://github.com/piyush-eon/repo) 💖 (License: MIT)
