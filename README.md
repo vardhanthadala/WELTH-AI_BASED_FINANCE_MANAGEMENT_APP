@@ -90,7 +90,7 @@ Built using modern technologies and deployed on **Vercel**, it offers a fast, se
 5. Open http://localhost:3000  in your browser to view the app.
 
 
-##📄 License
+## 📄 License
 
 This project is licensed under the MIT License. Feel free to use, share, and contribute.
  
