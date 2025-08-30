@@ -1,10 +1,4 @@
-# 💰 Welth — Full Stack AI Finance Platform
-
-> AI-Based Personal Finance Management App built with Next.js, Supabase, Tailwind, Prisma, Inngest, ArcJet, Clerk, and Shadcn UI.
-
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
-
----
+# Full Stack AI Finance Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI... <img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432"> ## 📌 AI Finance Management App
 
 ## 📌 Overview
 
