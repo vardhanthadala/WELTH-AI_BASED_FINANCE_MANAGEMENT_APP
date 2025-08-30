@@ -92,4 +92,4 @@ Built using modern technologies and deployed on **Vercel**, it offers a fast, se
 
 ## 📄 License
 
-This project is licensed under the MIT License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg). Feel free to use, share, and contribute.
+This project is licensed under the [MIT License](./LICENSE) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg). Feel free to use, share, and contribute.
