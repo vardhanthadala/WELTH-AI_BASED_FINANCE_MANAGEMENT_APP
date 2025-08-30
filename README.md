@@ -1,51 +1,66 @@
-# Full Stack AI Finance Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI...
+# 💰 Welth — Full Stack AI Finance Platform
+
+> AI-Based Personal Finance Management App built with Next.js, Supabase, Tailwind, Prisma, Inngest, ArcJet, Clerk, and Shadcn UI.
 
 <img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
 
-## 📌 AI Finance Management App
+---
 
-## Overview
+## 📌 Overview
 
-This project is a **Personal Finance Tracker** built with the latest technologies. It allows users to securely track their income, expenses, and set budget limits, while leveraging AI for receipt scanning and financial insights.
+**Welth** is a smart personal finance tracker that helps users monitor income, expenses, and budgets while leveraging AI for receipt scanning and intelligent financial insights. The app also supports automated transactions, scheduled email summaries, and is secured with cutting-edge tools.
 
-The application is designed with a user-friendly interface using **React.js**, **Next.js**, and **Tailwind CSS**, deployed on **Vercel**. It incorporates AI for automatic expense categorization through receipt scanning and provides insightful financial summaries.
+Built using modern technologies and deployed on **Vercel**, it offers a fast, secure, and highly interactive user experience.
 
-## Key Features
+---
 
-- **AI-powered receipt scanning**: Automatically categorizes expenses and tracks spending.
-- **Real-time database**: Uses **Supabase** for storing user data and **Prisma** as the ORM.
-- **Expense tracking**: Track income and expenses, set budget limits, and receive email alerts when nearing the budget limit.
-- **Financial insights**: Monthly insights and detailed reports via email, showing trends and patterns in spending.
-- **Scheduled transactions**: Schedule recurring expenses and automatically add them when due.
-- **API Security**: Integrated **ArcJet** for API security, implementing rate limiting and bot protection to ensure the application is secure against common threats.
+## 🚀 Key Features
 
-## Tech Stack
+- 🤖 **AI-powered Receipt Scanning** – Extracts text and categorizes expenses automatically.
+- 📊 **Expense Tracking** – Track income and expenses, set budget limits, receive alerts.
+- 📅 **Scheduled Transactions** – Automatically logs recurring expenses.
+- 🧠 **Financial Insights** – Sends monthly summaries via email showing patterns and trends.
+- 🔐 **Security & API Protection** – Secured with ArcJet for bot protection and rate limiting.
+- 📈 **Interactive Charts** – Visualize expenses daily and monthly using dynamic charts.
 
-- **Frontend**: React.js, Next.js 15, Tailwind CSS, Shadcn UI
-- **Backend**: Supabase, Prisma
-- **Authentication**: Clerk
-- **Email & Scheduled Jobs**: Inngest
-- **AI**: Receipt scanning and financial insights generation
-- **Security**: ArcJet (Bot protection, rate limiting, API shield)
-- **Deployment**: Vercel
+---
 
-## Security Highlights
+## 🛠️ Tech Stack
 
-- **Bot Protection**: Using **ArcJet Shield** to prevent bots from accessing the API.
-- **Rate Limiting**: To safeguard the app from abuse and ensure a smooth user experience.
-- **Authentication**: Managed through **Clerk** to handle secure user login and session management.
+| Layer              | Technology                                         |
+|-------------------|----------------------------------------------------|
+| Frontend          | React 19, Next.js 15, Tailwind CSS, Shadcn UI      |
+| Backend           | Supabase, Prisma                                   |
+| Authentication    | Clerk                                              |
+| Background Jobs   | Inngest                                            |
+| AI Capabilities   | Receipt scanning & financial insight generation    |
+| Security          | ArcJet (Bot protection, rate limiting, API shield) |
+| Deployment        | Vercel                                             |
 
-## Features in Detail
+---
 
-- **Receipt Scanning**: Users can upload receipts, and the AI will automatically extract and categorize expenses.
-- **Expense Tracking**: Provides a detailed breakdown of daily and monthly expenses.
-- **Scheduled Transactions**: Schedule recurring expenses and track them seamlessly.
-- **Financial Summaries**: Periodically email users with financial insights, including spending patterns and trends.
+## 🔐 Security Highlights
 
-## How to Use
+- **Bot Protection**: ArcJet shield blocks automated and malicious traffic.
+- **Rate Limiting**: Prevents API abuse and ensures reliable service.
+- **Session Handling**: All auth and session management is done securely via Clerk.
 
-1. Clone this repository.
-2. Install dependencies:
+---
+
+## 🧾 Features in Detail
+
+- Upload receipts and let AI handle categorization.
+- Set and track budget limits.
+- Schedule recurring expenses automatically via Inngest jobs.
+- Get AI-powered monthly financial summaries sent via email.
+- Visual dashboards show spending trends and breakdowns.
+- Secure login system and fully protected APIs.
+
+---
+
+## ⚙️ How to Use
+
+1. **Clone the repository**
    ```bash
-   npm install
-
+   git clone https://github.com/vardhanthadala/WELTH-AI_BASED_FINANCE_MANAGEMENT_APP.git
+   cd WELTH-AI_BASED_FINANCE_MANAGEMENT_APP
