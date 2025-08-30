@@ -4,6 +4,9 @@
 
 Try the app live here: [https://welth-red.vercel.app/](https://welth-red.vercel.app/)
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square)](https://welth-red.vercel.app/)
+
+
 
 ## 📌 Overview
 
